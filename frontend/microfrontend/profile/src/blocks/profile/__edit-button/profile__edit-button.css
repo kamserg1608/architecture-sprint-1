@@ -1,0 +1,29 @@
+.profile__edit-button {
+  width: 24px;
+  height: 24px;
+  background: transparent url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDEuMzI4MjdMMi42MDM3NyA4Ljc2NjZMMS4yODMwMiA3LjQxOTM2TDguNjYwMzggMEwxMCAxLjMyODI3Wk0wIDEwTDEuOTYyMjYgOS40MTE3N0wwLjU4NDkwNiA4LjA4MzQ5TDAgMTBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K') center no-repeat;
+  background-size: 10px 10px;
+  border: 1px solid #fff;
+  grid-area: button;
+  align-self: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  padding: 0;
+  margin: 0;
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+  .profile__edit-button {
+    width: 18px;
+    height: 18px;
+    background-size: 8px 8px;
+  }
+}

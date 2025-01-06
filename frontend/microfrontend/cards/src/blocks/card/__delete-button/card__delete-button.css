@@ -1,0 +1,22 @@
+.card__delete-button {
+  width: 18px;
+  height: 18px;
+  background: transparent url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxOCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuNDU3ODEgMTguMTQyMkMyLjUxODc2IDE4LjgxMjYgMy4wNjcyOSAxOS4zMDAyIDMuNzM3NzIgMTkuMzAwMkgxNC4yNjE0QzE0LjkzMTggMTkuMzAwMiAxNS40ODA0IDE4Ljc5MjMgMTUuNTQxMyAxOC4xNDIyTDE2LjcxOTcgNS43OTAwNEgxLjI3OTQ4TDIuNDU3ODEgMTguMTQyMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xNi43MjAxIDEuOTMwMDJIMTEuNTgwMVYxLjI3OTkxQzExLjU4MDEgMC41Njg4NDkgMTEuMDExMyAwIDEwLjMwMDIgMEg3LjcyMDA5QzcuMDA5MDMgMCA2LjQ0MDE4IDAuNTY4ODQ5IDYuNDQwMTggMS4yNzk5MVYxLjkzMDAySDEuMjc5OTFDMC41Njg4NDkgMS45MzAwMiAwIDIuNDk4ODcgMCAzLjIwOTkzQzAgMy45MjA5OSAwLjU2ODg0OSA0LjQ4OTg0IDEuMjc5OTEgNC40ODk4NEgxNi43MjAxQzE3LjQzMTIgNC40ODk4NCAxOCAzLjkyMDk5IDE4IDMuMjA5OTNDMTggMi40OTg4NyAxNy40MzEyIDEuOTMwMDIgMTYuNzIwMSAxLjkzMDAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==') center no-repeat;
+  background-size: 18px 18px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card__delete-button:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,37 @@
+.profile__add-button {
+  width: 150px;
+  height: 50px;
+  background: transparent url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyIDkuNzc3NzhIMTIuMjIyMlYwSDkuNzc3NzhWOS43Nzc3OEgwVjEyLjIyMjJIOS43Nzc3OFYyMkgxMi4yMjIyVjEyLjIyMjJIMjJWOS43Nzc3OFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=") center no-repeat;
+  background-size: 22px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 740px) {
+  .profile__add-button {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile__add-button {
+    width: 100%;
+  }
+}
