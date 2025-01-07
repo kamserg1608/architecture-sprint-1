@@ -78,21 +78,45 @@ frontend/
 
 #### Операции для Запуска
 Для запуска готового кода необходимо выполнить следующие шаги:
+1. Проверить и установить node 20.18.1
+```bash
+ node -v
+ npm -v
+```
+![NvmNodeNpmVersion.png](..%2Fimages%2FNvmNodeNpmVersion.png)
 
-1. **Переход в директорию**  
+2. **Переход в директорию**  
    Сначала перейдите в директорию `frontend/microfrontend/host` с помощью команды:
     ```bash
     cd ./frontend/microfrontend/host
     ```
-2. **Запуск всех микрофронтендов**  
+3. **Запуск всех микрофронтендов**  
    Запустите скрип `frontend/microfrontend/host` с помощью команды:
     ```bash
     npm run start:all
     ```
+   или запустить из IntelliJ IDEA / WebStorm
+
+   ![runMicrofrontend.png](..%2Fimages%2FrunMicrofrontend.png)
 
 #### Удобный Запуск
 Для более удобного и быстрого запуска вы можете использовать цепочку команд, объединив переход в директорию и запуск скрипта в одну строку:
 ```bash
-cd ./repos/architecture-sprint-1/frontend/microfrontend/host && npm run start:all
+cd ./frontend/microfrontend/host && npm run start:all
 ```
 Эта команда сэкономит время, выполнив оба действия последовательно без необходимости вводить каждую команду отдельно.
+
+P.S.
+может понадобиться установить пакет concurrently
+```bash
+npm install -g concurrently
+```
+
+Свяжитесь со мной если не удалось запустить проект
+
+https://t.me/MotoFirePump
+
+kamserg1608@gmail.com
+
+
+---
