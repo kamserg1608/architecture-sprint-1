@@ -1,19 +1,16 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
-import logoPath from '../images/logo.svg';
+import logo from '../images/logo.svg?url';
 
 // В корневом компоненте App описаны обработчики: onRegister, onLogin и onSignOut. Эти обработчики переданы в соответствующие компоненты: Register.jsx, Login.jsx, Header.js
-function Header ({onSignOut, email }) {
-  function handleSignOut(){
-    onSignOut();
-  }
+function Header ({ onSignOut, email }) {
   return (
     <header className="header page__section">
-      <img src={logoPath} alt="Логотип проекта Mesto" className="logo header__logo" />
+      <img src={logo} alt="Логотип проекта Mesto" className="logo header__logo" />
       <Route exact path="/">
         <div className="header__wrapper">
           <p className="header__user">{ email }</p>
-          <button className="header__logout" onClick={handleSignOut}>Выйти</button>
+          <button className="header__logout" onClick={onSignOut}>Выйти</button>
         </div>
       </Route>
       <Route path="/signup">
